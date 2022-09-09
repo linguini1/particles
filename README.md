@@ -2,7 +2,7 @@
 
 ### Matteo Golin
 
-A very basic particle physics simulator I built after being inspired by the video made by Brainxyz.
+A very basic particle physics simulator I built after being inspired by the video made by [Brainxyz](https://www.youtube.com/watch?v=0Kx4Y9TVMGg).
 
 ### Features
 
