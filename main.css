@@ -1,0 +1,49 @@
+:root {
+  --border-colour: black;
+  --particle-colour: white;
+  --space-size: 900px;
+}
+
+body {
+  margin: 0;
+}
+
+#border {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--border-colour);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#space {
+  width: var(--space-size);
+  height: var(--space-size);
+  border-style: solid;
+  border-color: white;
+}
+
+#button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: var(--space-size);
+}
+
+.button {
+  background-color: black;
+  border-style: solid;
+  border-color: white;
+  border-radius: 1em;
+  padding: 15px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  color: white;
+}
+
+.button:hover {
+  cursor: pointer;
+}
